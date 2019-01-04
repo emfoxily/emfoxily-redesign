@@ -17,6 +17,7 @@ export default {
 
 <style>
   body {
-    background-color: #222;
+    /* background-image: url('./assets/dark_stripes.png'); */
+    background-color: #111;
   }
 </style>
