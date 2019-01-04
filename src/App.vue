@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <Home />
+    <Main />
   </div>
 </template>
 
 <script>
-import Home from './home/Home.vue'
+import Main from './main/Main.vue'
 
 export default {
   name: 'app',
   components: {
-    Home
+    Main
   }
 }
 </script>
 
 <style>
-
+  body {
+    background-color: #222;
+  }
 </style>
