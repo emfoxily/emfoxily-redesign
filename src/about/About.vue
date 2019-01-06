@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="sm-about-bg">
         <mq-layout mq="sm">
             <fieldset class="sm-about">
                 <legend>
@@ -18,6 +18,19 @@
 </script>
 
 <style scope>
+    main.sm-about-bg {
+        background-image: linear-gradient(to top, #f115db, #f115db, #111);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        margin-left: -3vw;
+    }   
+
+    main {
+        width: 104%;
+        padding-bottom: 2em;
+    }
+
     fieldset.sm-about {
         background-color: #1a1a1a;
         width: 75%;

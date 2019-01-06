@@ -14,7 +14,7 @@
       <hr class="sm-hr" />
       <br />
       <About />
-      <hr class="sm-hr" />
+      <!-- <hr class="sm-hr" /> -->
       <br />
       <MobProj />
     </mq-layout>
