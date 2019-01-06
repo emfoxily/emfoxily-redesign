@@ -5,7 +5,7 @@
                 <legend>
                     <img src="../assets/aboutem.png" alt="about emily" />
                 </legend>
-                Hi! I'm Emily and I'm a UX/UI designer and front-end web developer based in Georgia. When I'm not working on a project, I'm writing stories, creating digital art, and probably binging The Office on Netflix.
+                Hi! I'm Emily and I'm a UX/UI designer and front-end web developer based in Georgia. When I'm not working on a project, I'm writing stories, creating digital art, and probably playing video games or binging The Office on Netflix. Let's chat!
             </fieldset>
         </mq-layout>
     </main>
@@ -21,7 +21,7 @@
     fieldset.sm-about {
         background-color: #1a1a1a;
         width: 75%;
-        margin: 0 auto;
+        margin: 0 auto 10vw auto;
         border: 1px solid #f115db;
         border-radius: 2vw;
         font-size: 5.5vw;

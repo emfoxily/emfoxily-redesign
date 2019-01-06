@@ -14,6 +14,9 @@
       <hr class="sm-hr" />
       <br />
       <About />
+      <hr class="sm-hr" />
+      <br />
+      <MobProj />
     </mq-layout>
   </main>
 </template>
@@ -27,13 +30,17 @@
   
   // about component
   import About from '../about/About.vue'
+
+  // mobile projects component
+  import MobProj from '../projects/Mobile.vue'
   
   export default {
     name: 'Main',
     components: {
       Nav,
       MobNav,
-      About
+      About,
+      MobProj
     },
     computed: {
       displayText() {
@@ -58,6 +65,24 @@
   img.mdlg-logo {
     width: 50%;
     margin: 0 5vw;
+  }
+
+  /* sm, md, & lg logo */
+
+  img.sm-logo, img.mdlg-logo {
+    animation: blur 2s;
+    transition: 1s linear;
+  }
+
+  @keyframes blur {
+    0% {
+      filter: blur(25px);
+      -webkit-filter: blur(25px);
+    }
+    100% {
+      filter: blur(0px);
+      -webkit-filter: blur(0px);
+    }
   }
 
   /* small horizontal rule */
