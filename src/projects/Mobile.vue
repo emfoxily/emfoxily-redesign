@@ -4,9 +4,12 @@
             <img src="../assets/projects.png" alt="projects" />
         </h1>
         <img class="project" src="../assets/connect4.png" alt="wingardium leviosfour" />
+        <img class="project" src="../assets/laughsock.png" alt="laughing sock" />
+        <img class="project" src="../assets/ollivanders.png" alt="ollivanders" />
         <img class="project" src="../assets/speculook.png" alt="speculook" />
         <img class="project" src="../assets/eventful.png" alt="eventful" />
         <img class="project" src="../assets/santasworkshop.png" alt="santa's workshop" />
+        <img class="project" src="../assets/codemas.png" alt="codemas" />
     </div>
 </template>
 
