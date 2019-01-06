@@ -34,7 +34,7 @@
     fieldset.sm-about {
         background-color: #1a1a1a;
         width: 75%;
-        margin: 0 auto 10vw auto;
+        margin: 0 auto 10vw 7.8vw;
         border: 1px solid #f115db;
         border-radius: 2vw;
         font-size: 5.5vw;
