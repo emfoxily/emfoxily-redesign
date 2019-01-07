@@ -35,6 +35,15 @@ export default {
         width: 90%;
         border: .5em solid #333;
         border-radius: 3vw;
+        z-index: -1;
+    }
+
+    br.project-break {
+        display: block;
+        content: "";
+        margin-top: 5vw;
+        border-top: 1px solid #f712d9;
+        padding: .4em;
     }
 
     h1 img {
@@ -42,16 +51,34 @@ export default {
     }
 
     p {
+        position: relative;
         /* background-color: #222; */
-        margin-top: -2vw;
+        background-image: linear-gradient(to top, #111, #222,  #222, #222, #222, #222, transparent);
+        width: 79%;
+        margin-top: -20vw;
+        margin-left: 2.8vw;
         padding: 1em;
         font-size: 5vw;
         text-align: justify;
         color: #c5c5c5;
+        z-index: 2;
+        border-left: .5em solid #333;
+        border-right: .5em solid #333;
+        border-bottom: .5em solid #333;
+        border-radius: 0 0 3vw 3vw;
     }
 
     p strong {
-        font-size: 5.8vw;
-        color: #222;
+        font-size: 5.5vw;
+        color: #f712d9;
+    }
+
+    p a {
+        color: #c5c5c5;
+        text-decoration: none;
+        font-size: 7vw;
+        font-weight: 600;
+        padding: 1.2em;
+        cursor: pointer;
     }
 </style>
