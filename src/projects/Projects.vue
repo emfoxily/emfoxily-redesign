@@ -1,62 +1,34 @@
 <template>
     <div>
-        <div>
-            <img class="project" @click="toggle()" src="../assets/connect4.png" alt="wingardium leviosfour" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/laughsock.png" alt="laughing sock" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/ollivanders.png" alt="ollivanders" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/speculook.png" alt="speculook" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/eventful.png" alt="eventful" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/santasworkshop.png" alt="santa's workshop" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
-        <div>
-            <img class="project" @click="toggle" src="../assets/codemas.png" alt="codemas" />
-            <p v-show="showDesc">
-                project description
-            </p>
-        </div>
+        <Leviosfour />
+        <Laughsock />
+        <Ollivanders />
+        <Speculook />
+        <Eventful />
+        <SantasWork />
+        <Codemas />
     </div>
 </template>
 
 <script>
+    import Leviosfour from '../projects/Leviosfour.vue'
+    import Laughsock from '../projects/Laughsock.vue'
+    import Ollivanders from '../projects/Ollivanders.vue'
+    import Speculook from '../projects/Speculook.vue'
+    import Eventful from '../projects/Eventful.vue'
+    import SantasWork  from '../projects/SantasWork.vue'
+    import Codemas from '../projects/Codemas.vue'
+
     export default {
         name: 'Projects',
-        data() {
-            return {
-                showDesc: false,
-            }
+        components: {
+            Leviosfour,
+            Laughsock,
+            Ollivanders,
+            Speculook,
+            Eventful,
+            SantasWork,
+            Codemas
         },
-        methods: {
-            toggle() {
-                this.showDesc = !this.showDesc
-            }
-        }
     }
 </script>
