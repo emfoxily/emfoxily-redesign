@@ -16,9 +16,9 @@
     import Ollivanders from '../projects/Ollivanders.vue'
     import Speculook from '../projects/Speculook.vue'
     import Eventful from '../projects/Eventful.vue'
-    import SantasWork  from '../projects/SantasWork.vue'
+    import SantasWork from '../projects/SantasWork.vue'
     import Codemas from '../projects/Codemas.vue'
-
+    
     export default {
         name: 'Projects',
         components: {
