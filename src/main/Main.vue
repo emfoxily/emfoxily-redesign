@@ -13,7 +13,7 @@
       <MobNav />
       <hr class="sm-hr" />
       <br />
-      <About />
+      <MobAbout />
       <!-- <hr class="sm-hr" /> -->
       <br />
       <MobProj />
@@ -23,13 +23,19 @@
 
 <script>
   // desktop navigation component
-  import Nav from '../nav/Nav.vue'
+  import DeskNav from '../nav/Desktop.vue'
   
   // mobile navigation component
   import MobNav from '../nav/Mobile.vue'
   
   // about component
-  import About from '../about/About.vue'
+  import DeskAbout from '../about/Desktop.vue'
+
+  // mobile about component
+  import MobAbout from '../about/Mobile.vue'
+
+  // desktop projects component
+  import DeskProj from '../projects/Desktop.vue'
 
   // mobile projects component
   import MobProj from '../projects/Mobile.vue'
@@ -37,9 +43,11 @@
   export default {
     name: 'Main',
     components: {
-      Nav,
+      DeskNav,
       MobNav,
-      About,
+      DeskAbout,
+      MobAbout,
+      DeskProj,
       MobProj
     },
     computed: {
@@ -63,8 +71,8 @@
   /* medium and large logo */
   
   img.mdlg-logo {
-    width: 50%;
-    margin: 0 5vw;
+    width: 45%;
+    margin: 5vw;
   }
 
   /* sm, md, & lg logo */
