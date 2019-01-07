@@ -22,8 +22,8 @@ export default {
     .projects {
         background-image: linear-gradient(to bottom, #f712d9, #6951fc, #3f07e0);
         background-color: #222;
-        width: 97%;
-        margin: -15vw -5vw;
+        width: 96.5%;
+        margin: -15vw -3vw;
         left: 0;
         padding: 1em;
         color: #c5c5c5;

@@ -1,8 +1,12 @@
 <template>
   <main>
     <!-- when screen size is medium screen size and above -->
-    <mq-layout mq="md+">
-      <img class="mdlg-logo" src="../assets/emfoxlogo.png" alt="emfoxily" />
+    <mq-layout mq="md+" class="desktop">
+      <header class="lg-header">
+        <img class="mdlg-logo" src="../assets/emfoxlogo.png" alt="emfoxily" />
+        <DeskAbout />
+      </header>
+      <DeskNav />
     </mq-layout>
   
     <!-- when screen size is small screen size and below -->
@@ -10,7 +14,7 @@
       <img class="sm-logo" src="../assets/emfoxlogo.png" alt="emfoxily" />
       <br />
       <hr class="sm-hr" />
-      <MobNav />
+      <MobNav class="mobile-nav"/>
       <hr class="sm-hr" />
       <br />
       <MobAbout />
@@ -59,6 +63,13 @@
 </script>
 
 <style scope>
+
+  /* desktop header */
+
+  header.lg-header {
+    display: flex;
+  }
+  
   /* small logo */
   
   img.sm-logo {
@@ -71,8 +82,9 @@
   /* medium and large logo */
   
   img.mdlg-logo {
-    width: 45%;
+    width: 40%;
     margin: 5vw;
+    align-self: center;
   }
 
   /* sm, md, & lg logo */

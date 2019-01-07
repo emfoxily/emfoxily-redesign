@@ -1,14 +1,12 @@
 <template>
-    <main class="sm-about-bg">
-        <mq-layout mq="sm">
+    <div class="sm-about-bg">
             <fieldset class="sm-about">
                 <legend>
                     <img src="../assets/aboutem.png" alt="about emily" />
                 </legend>
                 <About />
             </fieldset>
-        </mq-layout>
-    </main>
+    </div>
 </template>
 
 <script>
@@ -23,18 +21,15 @@
 </script>
 
 <style scope>
-    main.sm-about-bg {
+    div.sm-about-bg {
         background-image: linear-gradient(to top, #f115db, #f115db, #222, #111);
         /* background-size: 100% 75%; */
         background-repeat: no-repeat;
         background-position: bottom;
         margin-left: -3vw;
-    }   
-
-    main {
         width: 105%;
         padding-bottom: 2em;
-    }
+    }   
 
     fieldset.sm-about {
         background-color: #222;
