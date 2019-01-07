@@ -19,27 +19,28 @@
 
 <style scope>
     main.sm-about-bg {
-        background-image: linear-gradient(to top, #f115db, #f115db, #111);
-        background-size: 100% 50%;
+        background-image: linear-gradient(to top, #f115db, #f115db, #222, #111);
+        /* background-size: 100% 75%; */
         background-repeat: no-repeat;
         background-position: bottom;
         margin-left: -3vw;
     }   
 
     main {
-        width: 104%;
+        width: 105%;
         padding-bottom: 2em;
     }
 
     fieldset.sm-about {
-        background-color: #1a1a1a;
+        background-color: #222;
         width: 75%;
-        margin: 0 auto 10vw 7.8vw;
-        border: 1px solid #f115db;
-        border-radius: 2vw;
+        margin: 0 auto 10vw 8vw;
+        border: .5vw solid #f115db;
+        border-radius: 3vw;
         font-size: 5.5vw;
         color: #c5c5c5;
         text-align: justify;
+        padding-bottom: 2em;
     }
     
     .sm-about legend {
