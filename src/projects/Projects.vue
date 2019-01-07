@@ -1,11 +1,19 @@
 <template>
-    <div>
+    <div class="desktop-flex">
         <Leviosfour />
+        <br />
+        <br />
+        <br />
         <Laughsock />
+        <br />
         <Ollivanders />
+        <br />
         <Speculook />
+        <br />
         <Eventful />
+        <br />
         <SantasWork />
+        <br />
         <Codemas />
     </div>
 </template>

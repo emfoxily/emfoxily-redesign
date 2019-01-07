@@ -1,15 +1,18 @@
 <template>
   <main>
-    <!-- when screen size is medium screen size and above -->
+    <!-- when screen size is medium and above -->
     <mq-layout mq="md+" class="desktop">
       <header class="lg-header">
         <img class="mdlg-logo" src="../assets/emfoxlogo.png" alt="emfoxily" />
         <DeskAbout />
       </header>
       <DeskNav />
+      <br />
+      <br />
+      <DeskProj />
     </mq-layout>
   
-    <!-- when screen size is small screen size and below -->
+    <!-- when screen size is small and below -->
     <mq-layout mq="sm">
       <img class="sm-logo" src="../assets/emfoxlogo.png" alt="emfoxily" />
       <br />
@@ -110,6 +113,6 @@
   hr.sm-hr {
     border: 1px solid #222;
     width: 105%;
-    margin: 1vw -3vw;
+    margin: 1vw -.5vw;
   }
 </style>

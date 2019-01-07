@@ -27,7 +27,7 @@
         background-repeat: no-repeat;
         background-position: bottom;
         margin-left: -3vw;
-        width: 105%;
+        width: 109%;
         padding-bottom: 2em;
     }   
 

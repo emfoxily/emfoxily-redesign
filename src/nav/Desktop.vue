@@ -33,6 +33,7 @@ export default {
         margin: 0 auto;
         width: 90%;
         list-style: none;
+        margin-left: 2.5vw;
     }
 
     nav.desktop-nav hr {

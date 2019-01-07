@@ -18,7 +18,7 @@
 <style scope>
     nav.mobile-nav {
         background-color: #181818;
-        width: 100%;
+        width: 105%;
         padding: 1em 2em 2em 0em;
         margin-left: -7vw;
     }

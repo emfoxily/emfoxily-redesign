@@ -1,9 +1,9 @@
 <template>
-    <div class="projects">
+    <div class="sm-projects">
         <h1>
-            <img src="../assets/projects.png" alt="projects" />
+            <img src="../assets/portfolio.png" alt="projects" />
         </h1>
-        <Projects />
+        <Projects/>
     </div>
 </template>
 
@@ -19,11 +19,11 @@ export default {
 </script>
 
 <style scope>
-    .projects {
+    .sm-projects {
         background-image: linear-gradient(to bottom, #f712d9, #6951fc, #3f07e0);
         background-color: #222;
-        width: 96.5%;
-        margin: -15vw -3vw;
+        width: 100%;
+        margin: -5vw -3vw;
         left: 0;
         padding: 1em;
         color: #c5c5c5;
@@ -31,7 +31,7 @@ export default {
         overflow: hidden;
     }
 
-    img.project {
+    img.sm-project{
         width: 90%;
         border: .5em solid #333;
         border-radius: 3vw;
@@ -47,7 +47,7 @@ export default {
     }
 
     h1 img {
-        width: 100%;
+        width: 90%;
     }
 
     p {
